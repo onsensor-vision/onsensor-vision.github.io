@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Home | On Sensor Vision Workshop</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Home" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="CVPR 2026 Workshop on On-Sensor Vision : Exploring the Frontiers of Vision Processing at the Sensor Level" />
+<meta property="og:description" content="CVPR 2026 Workshop on On-Sensor Vision : Exploring the Frontiers of Vision Processing at the Sensor Level" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="On Sensor Vision Workshop" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Home" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"CVPR 2026 Workshop on On-Sensor Vision : Exploring the Frontiers of Vision Processing at the Sensor Level","headline":"Home","name":"On Sensor Vision Workshop","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="On Sensor Vision Workshop" />
+</head>
+<body><header class="site-header">
+  <div class="wrapper"><!-- <a class="site-title" rel="author" href="/">On Sensor Vision Workshop</a> --><a class="site-title" rel="author" href="/">On Sensor Vision Workshop</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/">Home</a><a class="page-link" href="/speakers/">Speakers</a><a class="page-link" href="/organizers/">Organizers</a><a class="page-link" href="/callforpapers/">Call for papers</a><a class="page-link" href="/schedule/">Schedule</a><a class="page-link" href="/papers/">Papers</a><a class="page-link" href="/contactus/">Contact Us</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home"><h1 class="page-heading">Home</h1><p><img src="assets/img/banner.jpg" alt="" /></p>
+
+<p>Many exciting computer vision applications operate at the edge; this could be in drones, IoT devices, or AR/VR systems. These demand visual processing that is fast, energy-efficient, and privacy-preserving. On-sensor vision meets these needs by unifying sensing and computation within a single chip, producing information-rich outputs instead of raw images. By minimizing costly data transfers, such architectures enable real-time, low-power operation. Prototypes like Manchester’s SCAMP integrate sensing, memory, and parallel processing directly on-chip. This workshop explores algorithms and architectures for near-pixel, in-sensor, and stacked sensor-processor devices, and how to best partition computation between on-sensor and off-sensor processing.</p>
+
+<h3 id="about-this-workshop">About this Workshop</h3>
+<p>While much focus in the recent explosion of computer vision has been on cloud-based processing of datasets, some of the most challenging and exciting applications are at the edge, where portable or mobile devices are required to exhibit autonomous operation via sophisticated visual processing using on-board hardware resources. The edge applications bring stringent requirements on operating speed (e.g. latency of processing in a fast-flying drone or a head/gaze tracking in a VR system), low-energy (e.g. power consumption in a battery-operated Internet-of-Things sensor device) or data security (e.g. privacy concerns in a security camera). These requirements are best satisfied when the processing of the data stream from an image sensor happens as close as possible to the sensor itself. Even better than attaching a camera to a dedicated microprocessor or mobile GPU is to unify the sensor and processor into a single device. In the paradigm of on-sensor computer vision we perform processing within the sensor itself, on the same chip; and this chip produces abstract, information-rich output rather than images.</p>
+
+<p>It is now well understood that in a computing system most energy and time cost is associated with data communications — whether transfers of data between subsystems, or within a subsystem itself (e.g. processor-memory transfers in a conventional CPU or GPU). We have already seen prototypes such as the SCAMP project from the University of Manchester where image sensing, processing and memory are closely integrated with processing carried out by a very large number of processor nodes, each equipped with physically co-located memory. Integration of further processing capabilities on the same silicon chip, possibly within the sensor/processor array itself or in a stacked 3D device may enable a significant fraction of a full computer vision stack to be performed very close to sensing pixels, with an abstract output of only “relevant information” to other computing elements within a robot or other system. What is considered “relevant information” depends on the context and application, and a major scientific question to be addressed is how to partition the processing system between the near-sensor computations provided by the pixel-parallel processor array and off-sensor processing hardware.</p>
+
+<h3 id="topics">Topics</h3>
+<ul>
+  <li>Algorithms for on or near sensor computer vision</li>
+  <li>Architectures (digital or analogue)</li>
+  <li>Efficiency and power usage</li>
+  <li>Cellular automata for vision</li>
+  <li>On-sensor neural networks</li>
+  <li>Bio-inspired vision sensing</li>
+  <li>Graph algorithms for fine-grained parallelism</li>
+  <li>Single layer and stacked architectures</li>
+  <li>Architecture simulators (functional and hardware level)</li>
+  <li>Visualisation and graphics for processor and algorithm design</li>
+  <li>Programming and learning for processing arrays</li>
+  <li>Analog processing for computer vision</li>
+  <li>Dividing processing between on-sensor and off-sensor</li>
+  <li>Communication between on-sensor and off-sensor processors (bandwidth and direction)</li>
+</ul>
+
+
+
+  </div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>CVPR 2026 Workshop on On-Sensor Vision : Exploring the Frontiers of Vision Processing at the Sensor Level</p>
+        <p>Based on a <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> template from a <a href="https://krrish94.github.io">lazy grad student</a>. Some icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
+</p>
+        
+        Last updated: January 26, 2026.
+        
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
