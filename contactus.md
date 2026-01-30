@@ -6,13 +6,13 @@ permalink: /contactus/
 
 
 ### Questions about submissions or the program?
-Contact **Maciej Lewandowski** at maciej.lewandowski@postgrad.manchester.ac.uk
+Contact **Maciej Lewandowski** at [maciej.lewandowski@postgrad.manchester.ac.uk](mailto:maciej.lewandowski@postgrad.manchester.ac.uk)
  
 ### Questions about on-sensor architectures or demos?
-Contact **Maciej Lewandowski** at maciej.lewandowski@postgrad.manchester.ac.uk
+Contact **Maciej Lewandowski** at [maciej.lewandowski@postgrad.manchester.ac.uk](mailto:maciej.lewandowski@postgrad.manchester.ac.uk)
 
 ### General inquiries
-Email the member of organizing team at maciej.lewandowski@postgrad.manchester.ac.uk 
+Email the member of organizing team at [maciej.lewandowski@postgrad.manchester.ac.uk](mailto:maciej.lewandowski@postgrad.manchester.ac.uk) 
 
 ---
 
