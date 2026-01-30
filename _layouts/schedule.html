@@ -10,7 +10,8 @@ layout: default
 
   <div class = "post-content">
 	  <table>
-	  	{% for scheduleitem in site.schedule %}
+	  	{% assign sorted_schedule = site.schedule | sort: "sequence_id" %}
+		{% for scheduleitem in sorted_schedule %}
 		    <tr>
 		        <td>
 		            <p align="center">
