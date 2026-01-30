@@ -6,6 +6,7 @@ permalink: /
 title: 
 layout: home
 ---
+## CVPR 2026 Workshop
 ![](assets/img/banner.jpg)
 
 
