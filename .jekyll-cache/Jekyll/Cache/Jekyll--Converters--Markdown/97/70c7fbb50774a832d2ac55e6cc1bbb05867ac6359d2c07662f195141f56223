@@ -1,0 +1,23 @@
+I"C<p><img src="assets/img/banner.jpg" alt="" /></p>
+
+<h2 id="cvpr-2026-workshop">CVPR 2026 Workshop</h2>
+
+<p>Computer Vision is moving to the edge - into drones, robots, IoT devices, AR/VR headsets and autonomous systems. These applications demand processing that is fast, energy-efficient, and privacy-preserving. On-sensor vision adresses these challenges by unifying sensing and computation on a single chip, producing information-rich outputs instead of raw pixel data.</p>
+
+<p>In modern computing systems, data movement costs more than computation. By integrating procesing at the sensor By integrating processing directly at the sensor - whether through Pixel Processor Arrays (PPAs) like Manchester’s SCAMP, stacked 3D sensors or analog processing - we can eliminate expensive data transfers and enable real-time operation at sub-watt power levels.</p>
+
+<p>This workshop brings together researchers working on algorithms, architectures, and systems for on-sensor and near-sensor vision. We’ll explore what computation should happen on-sensor versus off-sensor, what representations sensors should output when they produce information rather than images, and how to co-design algorithms and hardware for next-generation vision systems.</p>
+
+<h2 id="workshop-scope">Workshop Scope</h2>
+<p>In Scope</p>
+<ul>
+  <li>Algorithms for on or near sensor computer vision</li>
+  <li>Pixel-parallel processor arrays (digital and analog)</li>
+  <li>In-sensor and near-sensor neural networks</li>
+  <li>Cellular automata and bio-inspired vision</li>
+  <li>Algorithm-hardware co-design for sensor-integrated processing</li>
+  <li>Partitioning strategies between on-sensor and off-sensor computation</li>
+  <li>Novel architectures: stacked sensors, analog processing, neuromorphic systems</li>
+  <li>Programming models and simulators for processing arrays</li>
+</ul>
+:ET

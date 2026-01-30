@@ -1,0 +1,41 @@
+I"<p>We invite submissions of <strong>extended abstracts</strong> and <strong>live demonstrations</strong> showcasing novel work in on-sensor and near-sensor vision. This is an opportunity to present early-stage research, works-in-progress, recently published results, or hardware prototypes to an audience of researchers working at the intersection of computer vision, computer architecture and near-memory processing.</p>
+
+<h3 id="submission-types">Submission Types</h3>
+
+<p><strong>Extended Abstracts</strong></p>
+<ul>
+  <li>Format :  To be Finalized</li>
+</ul>
+
+<p><strong>Live Demonstrations</strong></p>
+<ul>
+  <li>Format : To be Finalized</li>
+</ul>
+
+<p>Demos are strongly encouraged and will be given dedicated space during the workshop.</p>
+
+<h3 id="topics-of-interest">Topics of Interest</h3>
+<p>We welcome submissions on all aspects of on-sensor vision, including but not limited to:</p>
+
+<p><strong>Algorithms and Methods:</strong></p>
+<ul>
+  <li>Algorithms for on or near sensor computer vision</li>
+  <li>Cellular automata for vision</li>
+  <li>On-sensor neural networks</li>
+  <li>Bio-inspired vision sensing</li>
+  <li>Graph algorithms for fine-grained parallelism</li>
+  <li>Programming and learning for processing arrays</li>
+</ul>
+
+<p><strong>Architectures and Systems:</strong></p>
+<ul>
+  <li>Architectures for on-sensor / near-sensor (digital or analogue)</li>
+  <li>Efficiency and power usage</li>
+  <li>Single layer and stacked architectures</li>
+  <li>Architecture simulators (functional and hardware level)</li>
+  <li>Visualisation and graphics for processor and algorithm design</li>
+  <li>Analog processing for computer vision</li>
+  <li>Dividing processing between on-sensor and off-sensor</li>
+  <li>Communication between on-sensor and off-sensor processors (bandwidth and direction)</li>
+</ul>
+:ET

@@ -6,7 +6,7 @@ name: Laurie Bose
 webpage: 
 
 # Primary affiliation
-affil: 
+affil: University of Bristol
 # Link to the primary affiliation
 affil_link: 
 

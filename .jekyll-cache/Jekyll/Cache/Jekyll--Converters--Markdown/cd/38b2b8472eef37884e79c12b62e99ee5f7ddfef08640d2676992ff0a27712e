@@ -1,0 +1,20 @@
+I"Ï<p>We invite submissions of <strong>extended abstracts</strong> and <strong>live demonstrations</strong> showcasing novel work in on-sensor and near-sensor vision. This is an opportunity to present early-stage research, works-in-progress, recently published results, or hardware prototypes to an audience of researchers working at the intersection of computer vision, computer architecture, and embedded systems.</p>
+
+<h3 id="topics">Topics</h3>
+<ul>
+  <li>Algorithms for on or near sensor computer vision</li>
+  <li>Architectures (digital or analogue)</li>
+  <li>Efficiency and power usage</li>
+  <li>Cellular automata for vision</li>
+  <li>On-sensor neural networks</li>
+  <li>Bio-inspired vision sensing</li>
+  <li>Graph algorithms for fine-grained parallelism</li>
+  <li>Single layer and stacked architectures</li>
+  <li>Architecture simulators (functional and hardware level)</li>
+  <li>Visualisation and graphics for processor and algorithm design</li>
+  <li>Programming and learning for processing arrays</li>
+  <li>Analog processing for computer vision</li>
+  <li>Dividing processing between on-sensor and off-sensor</li>
+  <li>Communication between on-sensor and off-sensor processors (bandwidth and direction)</li>
+</ul>
+:ET

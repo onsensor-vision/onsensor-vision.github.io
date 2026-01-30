@@ -3,31 +3,33 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 permalink: /
-title: Home
+title: 
 layout: home
 ---
+## CVPR 2026 Workshop
 ![](assets/img/banner.jpg)
 
-Many exciting computer vision applications operate at the edge; this could be in drones, IoT devices, or AR/VR systems. These demand visual processing that is fast, energy-efficient, and privacy-preserving. On-sensor vision meets these needs by unifying sensing and computation within a single chip, producing information-rich outputs instead of raw images. By minimizing costly data transfers, such architectures enable real-time, low-power operation. Prototypes like Manchester’s SCAMP integrate sensing, memory, and parallel processing directly on-chip. This workshop explores algorithms and architectures for near-pixel, in-sensor, and stacked sensor-processor devices, and how to best partition computation between on-sensor and off-sensor processing.
 
+Computer Vision is moving to the edge - into drones, robots, IoT devices, AR/VR headsets and autonomous systems. These applications demand processing that is fast, energy-efficient, and privacy-preserving. On-sensor vision adresses these challenges by unifying sensing and computation on a single chip, producing information-rich outputs instead of raw pixel data.
 
-### About this Workshop
-While much focus in the recent explosion of computer vision has been on cloud-based processing of datasets, some of the most challenging and exciting applications are at the edge, where portable or mobile devices are required to exhibit autonomous operation via sophisticated visual processing using on-board hardware resources. The edge applications bring stringent requirements on operating speed (e.g. latency of processing in a fast-flying drone or a head/gaze tracking in a VR system), low-energy (e.g. power consumption in a battery-operated Internet-of-Things sensor device) or data security (e.g. privacy concerns in a security camera). These requirements are best satisfied when the processing of the data stream from an image sensor happens as close as possible to the sensor itself. Even better than attaching a camera to a dedicated microprocessor or mobile GPU is to unify the sensor and processor into a single device. In the paradigm of on-sensor computer vision we perform processing within the sensor itself, on the same chip; and this chip produces abstract, information-rich output rather than images.
+In modern computing systems, data movement costs more than computation. By integrating procesing at the sensor By integrating processing directly at the sensor - whether through Pixel Processor Arrays (PPAs) like Manchester's SCAMP, stacked 3D sensors or analog processing - we can eliminate expensive data transfers and enable real-time operation at sub-watt power levels.
 
-It is now well understood that in a computing system most energy and time cost is associated with data communications — whether transfers of data between subsystems, or within a subsystem itself (e.g. processor-memory transfers in a conventional CPU or GPU). We have already seen prototypes such as the SCAMP project from the University of Manchester where image sensing, processing and memory are closely integrated with processing carried out by a very large number of processor nodes, each equipped with physically co-located memory. Integration of further processing capabilities on the same silicon chip, possibly within the sensor/processor array itself or in a stacked 3D device may enable a significant fraction of a full computer vision stack to be performed very close to sensing pixels, with an abstract output of only “relevant information” to other computing elements within a robot or other system. What is considered “relevant information” depends on the context and application, and a major scientific question to be addressed is how to partition the processing system between the near-sensor computations provided by the pixel-parallel processor array and off-sensor processing hardware.
+This workshop brings together researchers working on algorithms, architectures, and systems for on-sensor and near-sensor vision. We'll explore what computation should happen on-sensor versus off-sensor, what representations sensors should output when they produce information rather than images, and how to co-design algorithms and hardware for next-generation vision systems.
 
-### Topics 
+## Workshop Scope 
+In Scope 
 - Algorithms for on or near sensor computer vision
-- Architectures (digital or analogue)
-- Efficiency and power usage
-- Cellular automata for vision
-- On-sensor neural networks
-- Bio-inspired vision sensing
-- Graph algorithms for fine-grained parallelism
-- Single layer and stacked architectures
-- Architecture simulators (functional and hardware level)
-- Visualisation and graphics for processor and algorithm design
-- Programming and learning for processing arrays
-- Analog processing for computer vision
-- Dividing processing between on-sensor and off-sensor
-- Communication between on-sensor and off-sensor processors (bandwidth and direction)
+- Pixel-parallel processor arrays (digital and analog)
+- Graph algorithms for fine-grained parallelism 
+- In-sensor and near-sensor neural networks
+- Cellular automata and bio-inspired vision
+- Algorithm-hardware co-design for sensor-integrated processing
+- Partitioning strategies between on-sensor and off-sensor computation
+- Novel architectures: stacked sensors, analog processing, neuromorphic systems
+- Programming models and simulators for processing arrays
+
+## Key Workshop Questions 
+- which vision tasks belong on-sensor ?
+- what intermediate representations should sensors emit ? 
+- What are the benefits, applications and key tradeoffs of near sensor processing ?
+- how much programmability is needed in pixel parallel arrays ?
