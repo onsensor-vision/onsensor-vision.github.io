@@ -4,17 +4,19 @@ title: call for Abstracts and Demos
 permalink: /callforad/
 ---
 
-We invite submissions of **extended abstracts** and **live demonstrations** showcasing novel work in on-sensor and near-sensor vision. This is an opportunity to present early-stage research, works-in-progress, recently published results, or hardware prototypes to an audience of researchers working at the intersection of computer vision, computer architecture and near-memory processing.
+We invite submissions of **extended abstracts** and **live demonstrations** showcasing novel work in on-sensor and near-sensor vision. This is an opportunity to present early-stage research, works-in-progress, recently published results, or hardware prototypes to an audience of researchers working at the intersection of computer vision, computer architecture, and near-memory processing.
 
-### Submission Types 
+Accepted works will be published on the On-Sensor Vision CVPR 2026 workshop website but will **not** appear in the official CVPR 2026 proceedings.
 
-**Extended Abstracts**
-- Format :  To be Finalized 
+### Submission Format
 
-**Live Demonstrations**
-- Format : To be Finalized
+We welcome **2-4 page submissions** (excluding citations) describing either:
+- **Extended abstracts** presenting novel algorithms, architectures, or results
+- **Demonstrations** of hardware prototypes or system implementations
 
-Demos are strongly encouraged and will be given dedicated space during the workshop.
+Please use the [official CVPR LaTeX template](https://github.com/cvpr-org/author-kit) for your submission. Submit a **single PDF file** that clearly indicates whether the work will be presented as a talk or demonstration.
+
+**Demonstrations are strongly encouraged** and will be given dedicated exhibition space during the workshop.
 
 ### Topics of Interest 
 We welcome submissions on all aspects of on-sensor vision, including but not limited to: 
@@ -35,5 +37,13 @@ We welcome submissions on all aspects of on-sensor vision, including but not lim
 - Dividing processing between on-sensor and off-sensor
 - Communication between on-sensor and off-sensor processors (bandwidth and direction)
 
+### Submission Guidelines
 
-## Submission Guidelines
+**Timeline:**
+- **Submission deadline:** March 13, 2026
+- **Notification of acceptance:** March 20, 2026
+- **Camera-ready deadline:** April 20, 2026
+
+**Submission Portal:**
+
+The submission portal is being finalized. We will update this page once the portal is available.

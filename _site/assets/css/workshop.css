@@ -18,10 +18,12 @@ div.speaker p.speaker-bio {
 }
 
 .people-pic {
-  max-width: 100px;
-  max-height: 100px;
-  border-radius: 50%;
-  padding: 0;
+  width: 125px;
+  height: 125px;
+  max-width: 125px;
+  border-radius: 75%;
+  object-fit: cover;
+  display: block;
 }
 
 .people-name {
@@ -35,12 +37,12 @@ div.speaker p.speaker-bio {
 }
 @media (max-width:1000px) {
     div.speaker img.people-pic {
-        max-width: 100px;
-        max-height: 100px;
+        width: 100px;
+        height: 100px;
     }
     .people-pic {
-        max-width: 65px;
-        max-height: 65px;
+        width: 65px;
+        height: 65px;
     }
     .people-name {
         font-size: 13px;
