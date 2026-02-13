@@ -1,7 +1,7 @@
 ---
 layout: page
 title: call for Abstracts and Demos
-permalink: /callforad/
+permalink: /callforpapers/
 ---
 
 We invite submissions of **extended abstracts** and **live demonstrations** showcasing novel work in on-sensor and near-sensor vision. This is an opportunity to present early-stage research, works-in-progress, recently published results, or hardware prototypes to an audience of researchers working at the intersection of computer vision, computer architecture, and near-memory processing.
@@ -42,7 +42,7 @@ We welcome submissions on all aspects of on-sensor vision, including but not lim
 **Timeline:**
 - **Submission deadline:** March 13, 2026
 - **Notification of acceptance:** March 20, 2026
-- **Camera-ready deadline:** April 20, 2026
+- **Camera-ready deadline:** April 10, 2026
 
 **Submission Portal:**
 
