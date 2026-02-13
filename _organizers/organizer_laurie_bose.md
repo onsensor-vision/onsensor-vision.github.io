@@ -11,5 +11,5 @@ affil: University of Bristol
 affil_link: 
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)
-img: jane.jpg
+img: lauriebose.jpeg
 ---

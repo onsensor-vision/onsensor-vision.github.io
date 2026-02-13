@@ -16,5 +16,5 @@ affil2: Amazon
 affil2_link: https://www.amazon.science/scholars/walterio-mayol-cuevas
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)
-img: jane.jpg
+img: walterio.webp
 ---

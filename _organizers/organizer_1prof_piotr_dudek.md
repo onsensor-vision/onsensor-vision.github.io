@@ -11,7 +11,7 @@ affil: University of Manchester
 affil_link: https://research.manchester.ac.uk/en/persons/p.dudek
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)
-img: jane.jpg
+img: piotrdudek.webp
 ---
 
 Professor Piotr Dudek from the University of Manchester is perhaps the leading academic pioneer in On Sensor Vision, developing, building and demonstrating the capabilities of pixel-parallel processing through the SCAMP series of chips and other projects over nearly 30 years. He has collaborated with researchers and companies all around the world on this technology.
