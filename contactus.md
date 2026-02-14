@@ -4,15 +4,12 @@ title: Contact Us
 permalink: /contactus/
 ---
 
-
-### Questions about submissions or the program?
-Contact **Maciej Lewandowski** at [maciej.lewandowski@postgrad.manchester.ac.uk](mailto:maciej.lewandowski@postgrad.manchester.ac.uk)
- 
-### Questions about on-sensor architectures or demos?
-Contact **Maciej Lewandowski** at [maciej.lewandowski@postgrad.manchester.ac.uk](mailto:maciej.lewandowski@postgrad.manchester.ac.uk)
-
 ### General inquiries
-Email the member of organizing team at [maciej.lewandowski@postgrad.manchester.ac.uk](mailto:maciej.lewandowski@postgrad.manchester.ac.uk) 
+Email the member of organizing team at [onsensorvision@googlegroups.com](mailto:onsensorvision@googlegroups.com) or [maciej.lewandowski@postgrad.manchester.ac.uk](mailto:maciej.lewandowski@postgrad.manchester.ac.uk) 
+
+### Questions about submissions or the program, on-sensor architecture or demos ?
+Contact the organizers at [onsensorvision@googlegroups.com](mailto:onsensorvision@googlegroups.com)
+ 
 
 ---
 
