@@ -1,6 +1,6 @@
 ---
 layout: page
-title: call for Abstracts and Demos
+title: Call for Abstracts and Demos
 permalink: /callforpapers/
 ---
 
@@ -45,5 +45,5 @@ We welcome submissions on all aspects of on-sensor vision, including but not lim
 - **Camera-ready deadline:** April 10, 2026
 
 **Submission Portal:**
-
-The submission portal is being finalized. We will update this page once the portal is available.
+[OpenReview OSV Workshop Website](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/OSV)
+<!-- The submission portal is being finalized. We will update this page once the portal is available. -->

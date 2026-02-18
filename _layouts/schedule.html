@@ -9,61 +9,68 @@ layout: default
 	</header>
 
 	<div class="post-content">
-		<table>
-			{% assign sorted_schedule = site.schedule | sort: "sequence_id" %}
-			{% for scheduleitem in sorted_schedule %}
-			<tr>
-				<td>
-					<p align="center">
-						{{ scheduleitem.time }}
-					</p>
-				</td>
-				<td>
-					<div class="col-xs-12">
+		{% comment %}
+		Use show_schedule_table in schedule.md to control table visibility.
+		{% endcomment %}
+		{% if page.show_schedule_table %}
+			<table>
+				{% assign sorted_schedule = site.schedule | sort: "sequence_id" %}
+				{% for scheduleitem in sorted_schedule %}
+				<tr>
+					<td>
 						<p align="center">
-							{% if scheduleitem.img %}
-							<img class="people-pic"
-								src="{{ '/assets/img/speakers/' | append: speaker.img | relative_url }}"> {% else %}
-							<img class="people-pic"
-								src="{{ 'avatar.jpg' | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}"
-								target="_blank">
-							{% endif %}
+							{{ scheduleitem.time }}
 						</p>
-					</div>
-				</td>
-				<td align="center">
-					<div class="col-xs-12">
-						<b>{{ scheduleitem.title }}</b>
-					</div>
-				</td>
-				<td>
-					<div class="people-name text-center">
-						<!-- scheduleitem name (link to webpage if provided) -->
-						{% if scheduleitem.webpage %}
-						<a href="{{ scheduleitem.webpage }}" target="_blank">{{ scheduleitem.speaker }}</a>
-						{% else %}
-						{{ scheduleitem.speaker }}
-						{% endif %}
-						<br>
-						<!-- scheduleitem affiliation (if provided) -->
-						{% if scheduleitem.affil_link %}
-						<a href="{{ scheduleitem.affil_link }}" target="_blank">{{ scheduleitem.affil }}</a>
-						{% else %}
-						{{ scheduleitem.affil }}
-						{% endif %}
-						<!-- Additional scheduleitem affiliation (if provided) -->
-						{% if scheduleitem.affil2_link %}
-						<br>
-						<a href="{{ scheduleitem.affil2_link }}" target="_blank">{{ scheduleitem.affil2 }}</a>
-						{% elsif scheduleitem.affil2 %}
-						<br>
-						{{ scheduleitem.affil2 }}
-						{% endif %}
-					</div>
-				</td>
-			</tr>
-			{% endfor %}
-		</table>
+					</td>
+					<td>
+						<div class="col-xs-12">
+							<p align="center">
+								{% if scheduleitem.img %}
+								<img class="people-pic"
+									src="{{ '/assets/img/speakers/' | append: speaker.img | relative_url }}"> {% else %}
+								<img class="people-pic"
+									src="{{ 'avatar.jpg' | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}"
+									target="_blank">
+								{% endif %}
+							</p>
+						</div>
+					</td>
+					<td align="center">
+						<div class="col-xs-12">
+							<b>{{ scheduleitem.title }}</b>
+						</div>
+					</td>
+					<td>
+						<div class="people-name text-center">
+							<!-- scheduleitem name (link to webpage if provided) -->
+							{% if scheduleitem.webpage %}
+							<a href="{{ scheduleitem.webpage }}" target="_blank">{{ scheduleitem.speaker }}</a>
+							{% else %}
+							{{ scheduleitem.speaker }}
+							{% endif %}
+							<br>
+							<!-- scheduleitem affiliation (if provided) -->
+							{% if scheduleitem.affil_link %}
+							<a href="{{ scheduleitem.affil_link }}" target="_blank">{{ scheduleitem.affil }}</a>
+							{% else %}
+							{{ scheduleitem.affil }}
+							{% endif %}
+							<!-- Additional scheduleitem affiliation (if provided) -->
+							{% if scheduleitem.affil2_link %}
+							<br>
+							<a href="{{ scheduleitem.affil2_link }}" target="_blank">{{ scheduleitem.affil2 }}</a>
+							{% elsif scheduleitem.affil2 %}
+							<br>
+							{{ scheduleitem.affil2 }}
+							{% endif %}
+						</div>
+					</td>
+				</tr>
+				{% endfor %}
+			</table>
+		{% else %}
+			<p align="center">Detailed schedule will be announced soon.</p>
+		{% endif %}
 	</div>
 
 </article>

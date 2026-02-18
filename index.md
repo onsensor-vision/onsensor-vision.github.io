@@ -17,7 +17,6 @@ In modern computing systems, data movement costs more than computation. By integ
 This workshop brings together researchers working on algorithms, architectures, and systems for on-sensor and near-sensor vision. We'll explore what computation should happen on-sensor versus off-sensor, what representations sensors should output when they produce information rather than images, and how to co-design algorithms and hardware for next-generation vision systems.
 
 ## Workshop Scope 
-In Scope 
 - Algorithms for on or near sensor computer vision
 - Pixel-parallel processor arrays (digital and analog)
 - Graph algorithms for fine-grained parallelism 
