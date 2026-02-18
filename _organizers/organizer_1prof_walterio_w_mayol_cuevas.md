@@ -1,6 +1,8 @@
 ---
 # Name of the organizer
 name: Walterio W. Mayol-Cuevas
+# Display order in organizers page
+sequence_id: 4
 
 # Link to the organizer's webpage
 webpage: 

@@ -1,6 +1,8 @@
 ---
 # Name of the organizer
 name: Maciej Lewandowski
+# Display order in organizers page
+sequence_id: 2
 
 # Link to the organizer's webpage
 webpage: https://research.manchester.ac.uk/en/persons/maciej-lewandowski/

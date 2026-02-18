@@ -1,6 +1,8 @@
 ---
 # Name of the organizer
 name: Andrew Davison
+# Display order in organizers page
+sequence_id: 6
 
 # Link to the organizer's webpage
 webpage: https://www.doc.ic.ac.uk/~ajd/

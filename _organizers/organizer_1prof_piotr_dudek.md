@@ -1,6 +1,8 @@
 ---
 # Name of the organizer
 name: Piotr Dudek
+# Display order in organizers page
+sequence_id: 5
 
 # Link to the organizer's webpage
 webpage: https://personalpages.manchester.ac.uk/staff/p.dudek/pdudek.htm

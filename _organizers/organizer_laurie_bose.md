@@ -1,6 +1,8 @@
 ---
 # Name of the organizer
 name: Laurie Bose
+# Display order in organizers page
+sequence_id: 3
 
 # Link to the organizer's webpage
 webpage: 

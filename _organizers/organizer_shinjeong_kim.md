@@ -1,6 +1,8 @@
 ---
 # Name of the organizer
 name: Shinjeong Kim
+# Display order in organizers page
+sequence_id: 1
 
 # Link to the organizer's webpage
 webpage: https://www.shinjeongkim.com
