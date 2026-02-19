@@ -10,14 +10,14 @@ layout: home
 ![](assets/img/banner.jpg)
 
 
-Computer Vision is moving to the edge - into drones, robots, IoT devices, AR/VR headsets and autonomous systems. These applications demand processing that is fast, energy-efficient, and privacy-preserving. On-sensor vision adresses these challenges by unifying sensing and computation on a single chip, producing information-rich outputs instead of raw pixel data.
+Computer Vision is moving to the edge - into drones, robots, IoT devices, AR/VR headsets and autonomous systems. These applications demand processing that is fast, energy-efficient, and privacy-preserving. On-sensor vision addresses these challenges by unifying sensing and computation on a single chip, producing information-rich outputs instead of raw pixel data.
 
-In modern computing systems, data movement costs more than computation. By integrating procesing at the sensor By integrating processing directly at the sensor - whether through Pixel Processor Arrays (PPAs) like Manchester's SCAMP, stacked 3D sensors or analog processing - we can eliminate expensive data transfers and enable real-time operation at sub-watt power levels.
+In modern computing systems, data movement costs more than computation. By integrating processing directly at the sensor - whether through Pixel Processor Arrays (PPAs) like Manchester's SCAMP, stacked 3D sensors or analog processing - we can eliminate expensive data transfers and enable real-time operation at sub-watt power levels.
 
 This workshop brings together researchers working on algorithms, architectures, and systems for on-sensor and near-sensor vision. We'll explore what computation should happen on-sensor versus off-sensor, what representations sensors should output when they produce information rather than images, and how to co-design algorithms and hardware for next-generation vision systems.
 
 ## Workshop Scope 
-- Algorithms for on or near sensor computer vision
+- Algorithms for on- or near-sensor computer vision
 - Pixel-parallel processor arrays (digital and analog)
 - Graph algorithms for fine-grained parallelism 
 - In-sensor and near-sensor neural networks
@@ -30,5 +30,14 @@ This workshop brings together researchers working on algorithms, architectures, 
 ## Key Workshop Questions 
 - which vision tasks belong on-sensor ?
 - what intermediate representations should sensors emit ? 
-- What are the benefits, applications and key tradeoffs of near sensor processing ?
+- What are the benefits, applications and key tradeoffs of near-sensor processing ?
 - how much programmability is needed in pixel parallel arrays ?
+
+## Paper Submission
+
+We welcome **2-4 page submissions** (excluding citations) describing either:
+- **Extended abstracts** presenting novel algorithms, architectures, or results
+- **Demonstrations** of hardware prototypes or system implementations
+
+If you are considering sending a paper, please visit our [OpenReview OSV Workshop Website](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/OSV). <br>
+You can find more information on the [Call for Papers page](/callforpapers/).
