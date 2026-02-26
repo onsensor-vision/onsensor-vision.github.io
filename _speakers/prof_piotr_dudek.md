@@ -1,6 +1,6 @@
 ---
 # Name of the speaker
-name: Professor Piotr Dudek
+name: Prof. Piotr Dudek
 
 # Link to the speaker's webpage
 webpage: https://personalpages.manchester.ac.uk/staff/p.dudek/pdudek.htm

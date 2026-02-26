@@ -1,6 +1,6 @@
 ---
 # Name of the speaker
-name: Professor Gordon Wetzstein
+name: Prof. Gordon Wetzstein
 
 # Link to the speaker's webpage
 webpage: https://stanford.edu/~gordonwz/

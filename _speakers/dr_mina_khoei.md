@@ -16,4 +16,4 @@ img: mina_khoei.png
 ---
 
 <!-- Whatever you write below will show up as the speaker's bio -->
-Dr Mina Khoei, holds a Ph.D. in Computational Neuroscience and brings over 10 years of academic and industrial R&D experience at the intersection of neuroscience and engineering. Her work spans computational and experimental neuroscience, the design of energy-efficient and neuromorphic applications, spiking neural networks (SNNs), and event-based vision sensors.  
+Dr. Mina Khoei, holds a Ph.D. in Computational Neuroscience and brings over 10 years of academic and industrial R&D experience at the intersection of neuroscience and engineering. Her work spans computational and experimental neuroscience, the design of energy-efficient and neuromorphic applications, spiking neural networks (SNNs), and event-based vision sensors.  

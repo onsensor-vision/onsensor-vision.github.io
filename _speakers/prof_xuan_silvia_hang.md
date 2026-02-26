@@ -1,6 +1,6 @@
 ---
 # Name of the speaker
-name: Professor Xuan 'Silvia' Zhang
+name: Prof. Xuan 'Silvia' Zhang
 
 # Link to the speaker's webpage
 webpage: https://coe.northeastern.edu/people/zhang-xuan-silvia/

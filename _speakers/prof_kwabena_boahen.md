@@ -1,6 +1,6 @@
 ---
 # Name of the speaker
-name: Professor Kwabena Boahen
+name: Prof. Kwabena Boahen
 
 # Link to the speaker's webpage
 webpage: https://profiles.stanford.edu/kwabena-boahen
