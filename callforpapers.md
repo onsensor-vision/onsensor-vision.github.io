@@ -14,7 +14,7 @@ We welcome **2-4 page submissions** (excluding citations) describing either:
 - **Extended abstracts** presenting novel algorithms, architectures, or results
 - **Demonstrations** of hardware prototypes or system implementations
 
-Please use the [official CVPR LaTeX template](https://github.com/cvpr-org/author-kit) for your submission. Submit a **single PDF file** that clearly indicates whether the work will be presented as a talk or demonstration.
+Please use the [official CVPR LaTeX template](https://github.com/cvpr-org/author-kit) for your submission. Submit a **single PDF file** that clearly indicates whether the work will be presented as a poster or demonstration.
 
 **Demonstrations are strongly encouraged** and will be given dedicated exhibition space during the workshop.
 
