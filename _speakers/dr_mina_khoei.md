@@ -1,6 +1,6 @@
 ---
 # Name of the speaker
-name: Dr.Mina Khoei 
+name: Dr. Mina Khoei 
 
 # Link to the speaker's webpage
 webpage: https://www.linkedin.com/in/mina-a-khoei-58673526/
