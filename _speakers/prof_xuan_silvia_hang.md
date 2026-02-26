@@ -17,4 +17,4 @@ img: xuan_zhang.jpeg
 
 <!-- Whatever you write below will show up as the speaker's bio -->
 
-Research Focus : Artificial intelligence (AI) hardware, machine vision sensors, machine learning for electronic design automation, efficiency/security/privacy for autonomous systems, computer architecture, integrated circuits/VLSI design
+Prof. Xuan ’Silvia’ Zhang is an Associate Professor of Electrical and Computer Engineering at Northeastern University, with a courtesy appointment at Khoury College of Computer Sciences. Her lab works at the intersection of Artificial intelligence (AI) hardware and systems, machine vision co-design, and AI for automated chip design.
