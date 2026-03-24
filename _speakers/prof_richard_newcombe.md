@@ -1,6 +1,6 @@
 ---
 # Name of the speaker
-name: Prof. Richard Newcombe
+name: Dr. Richard Newcombe
 
 # Link to the speaker's webpage
 webpage: https://www.linkedin.com/in/richard-newcombe-a094164/
