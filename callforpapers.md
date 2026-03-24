@@ -40,9 +40,9 @@ We welcome submissions on all aspects of on-sensor vision, including but not lim
 ### Submission Guidelines
 
 **Timeline:**
-- **Submission deadline:** March 27, 2026
-- **Notification of acceptance:** April 3, 2026
-- **Camera-ready deadline:** May 1, 2026
+- **Submission deadline:** April 10, 2026
+- **Notification of acceptance:** April 17, 2026
+- **Camera-ready deadline:**  May 15, 2026
 
 **Submission Portal:**
 [OpenReview OSV Workshop Website](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/OSV)
