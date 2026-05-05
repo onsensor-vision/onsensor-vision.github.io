@@ -1,13 +1,8 @@
 ---
-# Determines which item appears first on the schedule (lowest number (0) appears first)
 sequence_id: 0
-
-# Speaker name
-speaker: Organizers
-
-# Title of the event
-title: Opening
-
-# Time of the event
-time: 09:00 - 09:15
+speaker: Piotr Dudek
+affil: University of Manchester
+img: piotrdudek.webp
+title: Introduction
+time: 08:00 - 08:30
 ---

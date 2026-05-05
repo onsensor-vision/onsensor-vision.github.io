@@ -94,3 +94,172 @@ span.award-other img {
   padding-top: 0;
   padding-bottom: 8px;
 }
+
+.schedule-list {
+  display: grid;
+  gap: 16px;
+  margin: 28px 0 8px;
+}
+
+.schedule-item {
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.schedule-time {
+  position: sticky;
+  top: 12px;
+  justify-self: stretch;
+  border: 1px solid #d8dee7;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #f7f9fc;
+  color: #2f3d4f;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.schedule-card {
+  display: grid;
+  grid-template-columns: 86px minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  min-height: 112px;
+  border: 1px solid #e1e6ee;
+  border-radius: 8px;
+  padding: 18px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(20, 35, 55, 0.06);
+}
+
+.schedule-speaker-photo .people-pic {
+  width: 86px;
+  height: 86px;
+  max-width: 86px;
+  border-radius: 50%;
+}
+
+.schedule-title {
+  margin: 0 0 6px;
+  color: #1f2937;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.schedule-speaker {
+  color: #26364a;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.schedule-affiliation {
+  margin-top: 2px;
+  color: #5c6674;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.schedule-affiliation a {
+  color: inherit;
+}
+
+.schedule-affiliation-separator {
+  margin: 0 6px;
+  color: #9aa4b2;
+}
+
+.schedule-abstract {
+  margin-top: 12px;
+  border-top: 1px solid #edf0f4;
+  padding-top: 10px;
+  color: #3d4654;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.schedule-abstract summary {
+  width: fit-content;
+  cursor: pointer;
+  color: #245ca8;
+  font-weight: 700;
+}
+
+.schedule-abstract p:last-child {
+  margin-bottom: 0;
+}
+
+.schedule-item--break .schedule-card {
+  grid-template-columns: 1fr;
+  min-height: 0;
+  border-color: #dfe9f5;
+  background: #f8fbff;
+  box-shadow: none;
+}
+
+.schedule-item--break .schedule-title {
+  margin-bottom: 0;
+  color: #34506f;
+  font-size: 18px;
+}
+
+.schedule-empty {
+  margin: 32px 0;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .schedule-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .schedule-time {
+    position: static;
+    justify-self: start;
+    text-align: left;
+  }
+
+  .schedule-card {
+    grid-template-columns: 64px minmax(0, 1fr);
+    gap: 14px;
+    padding: 14px;
+  }
+
+  .schedule-speaker-photo .people-pic {
+    width: 64px;
+    height: 64px;
+    max-width: 64px;
+  }
+
+  .schedule-title {
+    font-size: 18px;
+  }
+
+  .schedule-speaker {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 460px) {
+  .schedule-card {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-speaker-photo .people-pic {
+    width: 72px;
+    height: 72px;
+    max-width: 72px;
+  }
+
+  .schedule-affiliation-separator {
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+}
