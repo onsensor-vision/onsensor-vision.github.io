@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: On Sensor Vision Workshop
+title: On-Sensor Vision Workshop
 email: onsensor@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   CVPR 2026 Workshop on On-Sensor Vision :

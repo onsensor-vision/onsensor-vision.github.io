@@ -6,9 +6,9 @@ permalink: /
 title: 
 layout: home
 ---
-<div class="info-banner">Location: Mile High 4EF, Time: 08:00-12:45 June 3rd 2026</div>
 
-## CVPR 2026 Workshop
+## CVPR 2026 On-Sensor Vision Workshop
+<div class="info-banner">Location: Mile High 4EF, Time: 08:00-12:45 June 3rd 2026</div>
 ![](assets/img/banner.jpg)
 
 
