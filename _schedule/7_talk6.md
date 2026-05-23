@@ -9,6 +9,7 @@ affil_link: https://tech.facebook.com/reality-labs/
 
 # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
 img: richard_newcombe.png
-title: Invited speaker talk
+title: Invited Speaker Talk
 time: 12:15 - 12:45
 ---
+TBD

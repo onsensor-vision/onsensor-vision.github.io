@@ -8,3 +8,4 @@ img: piotrdudek.webp
 title: Introduction
 time: 08:00 - 08:30
 ---
+TBD

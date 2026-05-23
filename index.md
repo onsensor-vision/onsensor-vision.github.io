@@ -8,7 +8,7 @@ layout: home
 ---
 
 ## CVPR 2026 On-Sensor Vision Workshop
-<div class="info-banner">Location: Mile High 4EF, Time: 08:00-12:45 June 3rd 2026</div>
+<div class="info-banner">Location: Mile High 4EF, Time: 08:00-12:45 June 3rd 2026, <a href="/schedule/">Schedule</a></div>
 ![](assets/img/banner.jpg)
 
 
@@ -35,11 +35,11 @@ This workshop brings together researchers working on algorithms, architectures, 
 - What are the benefits, applications and key tradeoffs of near-sensor processing ?
 - how much programmability is needed in pixel parallel arrays ?
 
-## Paper Submission
+<!-- ## Paper Submission
 
 We welcome **2-4 page submissions** (excluding citations) describing either:
 - **Extended abstracts** presenting novel algorithms, architectures, or results
 - **Demonstrations** of hardware prototypes or system implementations
 
 If you are considering sending a paper, please visit our [OpenReview OSV Workshop Website](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/OSV). <br>
-You can find more information on the [Call for Papers page](/callforpapers/).
+You can find more information on the [Call for Papers page](/callforpapers/). -->

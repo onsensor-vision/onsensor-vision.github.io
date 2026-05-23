@@ -16,6 +16,7 @@ time: 10:00 - 11:15
     <li><a href="/callforpapers/#cellular-inference-layers">Cellular Inference Layers for On-Sensor Semantic Segmentation: Convergence Guarantees and Energy Efficiency</a></li>
     <li><a href="/callforpapers/#pixvod">PixVOD: Pixel-Distributed Direct Visual Odometry and Depth Estimation</a></li>
     <li><a href="/callforpapers/#rotation-robust-tracking">Rotation-Robust On-Sensor Feature Tracking via In-Pixel Shear Compensation</a></li>
+    <li><a href="/callforpapers/#fefet-event-suppression">On-Sensor Background Event Suppression with FeFETs</a></li>
   </ul>
 </details>
 
@@ -25,6 +26,5 @@ time: 10:00 - 11:15
     <li><a href="/callforpapers/#silicon-retina-ppa">Silicon Retina on Pixel Processor Array</a></li>
     <li><a href="/callforpapers/#segment-this-thing">Segment This Thing, Bit by Bit</a></li>
     <li><a href="/callforpapers/#recer-r1-logarithmic-sensor">Demonstration of a Logarithmic Image Sensor with On-Chip Normal Flow Compute</a></li>
-    <li><a href="/callforpapers/#fefet-event-suppression">On-Sensor Background Event Suppression with FeFETs</a></li>
   </ul>
 </details>

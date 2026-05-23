@@ -13,6 +13,15 @@
   line-height: 1.3;
 }
 
+.info-banner a {
+  color: #245ca8;
+  text-decoration: underline;
+}
+
+.info-banner a:hover {
+  color: #1a4682;
+}
+
 div.speaker {
   margin: 2em 0;
 }
