@@ -69,10 +69,14 @@ layout: default
 								{% endif %}
 								{% assign abstract_text = scheduleitem.content | strip %}
 								{% if abstract_text != "" %}
-									<details class="schedule-abstract">
-										<summary>Abstract</summary>
+									{% if has_person %}
+										<details class="schedule-abstract">
+											<summary>Abstract</summary>
+											{{ scheduleitem.content | markdownify }}
+										</details>
+									{% else %}
 										{{ scheduleitem.content | markdownify }}
-									</details>
+									{% endif %}
 								{% endif %}
 							</div>
 						</div>

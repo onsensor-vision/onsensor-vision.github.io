@@ -3,12 +3,13 @@ layout: page
 title: Abstracts and Demos
 permalink: /callforpapers/
 ---
+<div class="info-banner">Links to full papers will be added soon.</div>
 
 ## Extended Abstracts
 
 <div class="paper-list">
 
-<article class="paper-card">
+<article class="paper-card" id="snappix">
   <h4 class="paper-title">SNAPPIX: Efficient-Coding–Inspired In-Sensor Compression for Edge Vision</h4>
   <div class="paper-authors">Weikai Lin, Tianrui Ma, Adith Boloor, Yu Feng, Ruofan Xing, Xuan Zhang, Yuhao Zhu</div>
   <details class="schedule-abstract">
@@ -17,7 +18,7 @@ permalink: /callforpapers/
   </details>
 </article>
 
-<article class="paper-card">
+<article class="paper-card" id="holocode">
   <h4 class="paper-title">HoloCode: Hybrid Optical-Electronic Edge Encoding for Privacy-Preserving Cloud Training</h4>
   <div class="paper-authors">Ruofan Xing, Arman Akbari, Weikai Lin, Adith Boloor, Alexander Montes McNeil, Michael Moebius, Yongmin Liu, Yuhao Zhu, Xuan Zhang</div>
   <details class="schedule-abstract">
@@ -26,7 +27,7 @@ permalink: /callforpapers/
   </details>
 </article>
 
-<article class="paper-card">
+<article class="paper-card" id="primm">
   <h4 class="paper-title">PRIMM: Perception Using Integrated Multi-Modal Modularity</h4>
   <div class="paper-authors">lilian lamb, Mohammadreza Mohammadi, Ramtin Zand</div>
   <details class="schedule-abstract">
@@ -35,7 +36,7 @@ permalink: /callforpapers/
   </details>
 </article>
 
-<article class="paper-card">
+<article class="paper-card" id="iris">
   <h4 class="paper-title">From Retina to Silicon: The IRIS Framework for Bio-inspired Visual Intelligence</h4>
   <div class="paper-authors">Subhradip Chakraborty, Shay Snyder, Maryam Parsa, Gregory W Schwartz, Akhilesh Jaiswal</div>
   <details class="schedule-abstract">
@@ -44,7 +45,7 @@ permalink: /callforpapers/
   </details>
 </article>
 
-<article class="paper-card">
+<article class="paper-card" id="content-adaptive-warping">
   <h4 class="paper-title">Should Sensors Output Raw Images? Content-Adaptive Warping as On-Sensor Preprocessing for Semantic Segmentation</h4>
   <div class="paper-authors">Mayank Singal</div>
   <details class="schedule-abstract">
@@ -53,7 +54,7 @@ permalink: /callforpapers/
   </details>
 </article>
 
-<article class="paper-card">
+<article class="paper-card" id="orbcam">
   <h4 class="paper-title">ORBCam: In-Sensor ORB Feature Processing for Ultra-Low-Power Visual-Inertial Odometry</h4>
   <div class="paper-authors">Yiwen Liang, Yuxiang Peng, Guoquan Huang, Weidong Cao, Chuchu Chen</div>
   <details class="schedule-abstract">
@@ -62,7 +63,7 @@ permalink: /callforpapers/
   </details>
 </article>
 
-<article class="paper-card">
+<article class="paper-card" id="sr-near-sensor">
   <h4 class="paper-title">Rethinking Super-Resolution for Near-Sensor Object Detection</h4>
   <div class="paper-authors">Lingjia Shi, Jinendra Malekar, Ramtin Zand</div>
   <details class="schedule-abstract">
@@ -72,7 +73,7 @@ permalink: /callforpapers/
   </details>
 </article>
 
-<article class="paper-card">
+<article class="paper-card" id="cellular-inference-layers">
   <h4 class="paper-title">Cellular Inference Layers for On-Sensor Semantic Segmentation: Convergence Guarantees and Energy Efficiency</h4>
   <div class="paper-authors">Kaustubh S. Bukkapatnam</div>
   <details class="schedule-abstract">
@@ -81,7 +82,7 @@ permalink: /callforpapers/
   </details>
 </article>
 
-<article class="paper-card">
+<article class="paper-card" id="pixvod">
   <h4 class="paper-title">PixVOD: Pixel-Distributed Direct Visual Odometry and Depth Estimation</h4>
   <div class="paper-authors">Shinjeong Kim, Paul H. J. Kelly, Andrew J. Davison</div>
   <details class="schedule-abstract">
@@ -91,12 +92,21 @@ permalink: /callforpapers/
   </details>
 </article>
 
-<article class="paper-card">
+<article class="paper-card" id="rotation-robust-tracking">
   <h4 class="paper-title">Rotation-Robust On-Sensor Feature Tracking via In-Pixel Shear Compensation</h4>
   <div class="paper-authors">Anirudh Kannan</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
     <p>Descriptor-In-Pixel (DIP) tracking exploits the massively parallel architecture of Pixel Processor Arrays (PPAs) to perform high-speed feature tracking entirely on-sensor. However, the binary ring descriptors used by DIP are inherently rotation-sensitive: a rotation of as little as 5° causes the loss of over 60% of tracked features in the baseline system. We present a PPA-compatible pre-rotation compensation pipeline that applies an inverse in-plane rotation to each query frame, via integer 3-shear decomposition, before descriptor computation. The shear operations are expressible as uniform per-row and per-column pixel shifts, preserving PPA locality and SIMD-style parallelism with no global operations or learned components. Evaluated on real KITTI imagery under controlled synthetic rotations of 0°–45°, our method raises mean feature survival from 26.5% to 60.0% on a highway sequence and from 12.6% to 50.5% on a turning sequence, with peak survival gains of +55% and +59% at 10° respectively. The compensation assumes the rotation angle is known upstream (e.g. from an IMU), and the entire pipeline remains executable within the PPA computational model.</p>
+  </details>
+</article>
+
+<article class="paper-card" id="fefet-event-suppression">
+  <h4 class="paper-title">On-Sensor Background Event Suppression with FeFETs</h4>
+  <div class="paper-authors">Leo Liu, Brandon Cai, Kwabena Boahen</div>
+  <details class="schedule-abstract">
+    <summary>Abstract</summary>
+    <p>Event cameras promise microsecond latency, but background activity from leakage currents and egomotion congests the readout network and inflates latency and jitter. Existing suppression algorithms, which depend on timestamping, precludes pixel-level integration and thus must be relegated to the chip periphery, occuring after event readout. To circumvent this bottleneck, we propose to use dense ferroelectric FETs to detect spatiotemporally-correlated events and reject noise without timestamping. Our simulations show that over 90% of leakage- and egomotion-induced events are suppressed while preserving over 80% of foreground events. That cuts a 140 million events per second stream 14-fold to 10 million events per second, and consequently reduces latency and jitter by a factor 1,000 and 2,500, respectively.</p>
   </details>
 </article>
 
@@ -106,7 +116,7 @@ permalink: /callforpapers/
 
 <div class="paper-list">
 
-<article class="paper-card">
+<article class="paper-card" id="silicon-retina-ppa">
   <h4 class="paper-title">Silicon Retina on Pixel Processor Array</h4>
   <div class="paper-authors">Maciej Lewandowski, Prince Philip, André van Schaik, Piotr Dudek</div>
   <details class="schedule-abstract">
@@ -115,7 +125,7 @@ permalink: /callforpapers/
   </details>
 </article>
 
-<article class="paper-card">
+<article class="paper-card" id="segment-this-thing">
   <h4 class="paper-title">Segment This Thing, Bit by Bit</h4>
   <div class="paper-authors">Maciej Lewandowski, Shinjeong Kim, Nicholas Fry, Piotr Dudek, Paul H. J. Kelly, Andrew J. Davison</div>
   <details class="schedule-abstract">
@@ -124,21 +134,12 @@ permalink: /callforpapers/
   </details>
 </article>
 
-<article class="paper-card">
+<article class="paper-card" id="recer-r1-logarithmic-sensor">
   <h4 class="paper-title">Demonstration of a Logarithmic Image Sensor with On-Chip Normal Flow Compute</h4>
   <div class="paper-authors">Mika Laiho, Ari Paasio, Eero Lehtonen, Petteri Mäki, Mika Kutila, Mika Grönroos, Tuomo Komulainen, Tero Säntti, Kalle Paasio, Jonne Poikonen</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
     <p>We demonstate RECER R1 chip that has 880x480 logarithmic HDR pixels accompanied with on-chip column-parallel normal flow compute. Visitors can interact with the demo by holding and moving the RECER R1 camera, observe the results of the normal flow compute, as well as the logarithmic HDR intensity image provided by the sensor.</p>
-  </details>
-</article>
-
-<article class="paper-card">
-  <h4 class="paper-title">On-Sensor Background Event Suppression with FeFETs</h4>
-  <div class="paper-authors">Leo Liu, Brandon Cai, Kwabena Boahen</div>
-  <details class="schedule-abstract">
-    <summary>Abstract</summary>
-    <p>Event cameras promise microsecond latency, but background activity from leakage currents and egomotion congests the readout network and inflates latency and jitter. Existing suppression algorithms, which depend on timestamping, precludes pixel-level integration and thus must be relegated to the chip periphery, occuring after event readout. To circumvent this bottleneck, we propose to use dense ferroelectric FETs to detect spatiotemporally-correlated events and reject noise without timestamping. Our simulations show that over 90% of leakage- and egomotion-induced events are suppressed while preserving over 80% of foreground events. That cuts a 140 million events per second stream 14-fold to 10 million events per second, and consequently reduces latency and jitter by a factor 1,000 and 2,500, respectively.</p>
   </details>
 </article>
 
