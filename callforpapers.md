@@ -1,8 +1,18 @@
 ---
 layout: page
-title: Call for Abstracts and Demos
+title: Abstracts and Demos
 permalink: /callforpapers/
 ---
+
+## Accepted Abstracts and Demos
+
+### Extended Abstracts
+
+### Demos
+
+## <s>Call for Abstracts and Demos</s>
+
+<p style="color: red;"><strong>The submission and review periods are now closed.</strong></p>
 
 We invite submissions of **extended abstracts** and **live demonstrations** showcasing novel work in on-sensor and near-sensor vision. This is an opportunity to present early-stage research, works-in-progress, recently published results, or hardware prototypes to an audience of researchers working at the intersection of computer vision, computer architecture, and near-memory processing.
 

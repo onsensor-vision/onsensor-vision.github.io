@@ -21,7 +21,12 @@ layout: default
 						{% assign has_person = true %}
 					{% endif %}
 					<section class="schedule-item{% unless has_person %} schedule-item--break{% endunless %}">
-						<div class="schedule-time">{{ scheduleitem.time }}</div>
+						{% assign time_parts = scheduleitem.time | split: "-" %}
+						<div class="schedule-time">
+							<span class="schedule-time-start">{{ time_parts[0] | strip }}</span>
+							<span class="schedule-time-separator">–</span>
+							<span class="schedule-time-end">{{ time_parts[1] | strip }}</span>
+						</div>
 						<div class="schedule-card">
 							{% if has_person %}
 								<div class="schedule-speaker-photo">
@@ -62,7 +67,8 @@ layout: default
 										{% endif %}
 									</div>
 								{% endif %}
-								{% if scheduleitem.content %}
+								{% assign abstract_text = scheduleitem.content | strip %}
+								{% if abstract_text != "" %}
 									<details class="schedule-abstract">
 										<summary>Abstract</summary>
 										{{ scheduleitem.content | markdownify }}
