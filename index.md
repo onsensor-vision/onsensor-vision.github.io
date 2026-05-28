@@ -7,7 +7,7 @@ title: Home
 layout: home
 ---
 
-## CVPR 2026 On-Sensor Vision Workshop
+<h2 class="home-title"><span class="home-title-text">On-Sensor Vision Workshop 2026</span><a class="home-title-logo-link" href="https://cvpr.thecvf.com/Conferences/2026" target="_blank" rel="noopener"><img class="home-title-logo" src="/assets/img/cvpr2026_logo.png" alt="CVPR 2026, Denver Colorado, June 3-7"></a></h2>
 <div class="info-banner">Location: Mile High 4EF, Time: 08:00-12:45 June 3rd 2026, <a href="/schedule/">Schedule</a></div>
 ![](assets/img/banner.jpg)
 

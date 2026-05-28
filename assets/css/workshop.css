@@ -1,3 +1,22 @@
+.home-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.home-title-text {
+  flex: 0 1 auto;
+}
+
+.home-title-logo {
+  flex: 0 0 auto;
+  height: 1.33em;
+  width: auto;
+  display: block;
+}
+
 .info-banner {
   width: 100%;
   margin: 0 0 20px;
@@ -167,8 +186,7 @@ span.award-other img {
   display: grid;
   grid-template-columns: 86px minmax(0, 1fr);
   gap: 18px;
-  align-items: center;
-  min-height: 112px;
+  align-items: start;
   border: 1px solid #e1e6ee;
   border-radius: 8px;
   padding: 18px;
@@ -183,7 +201,7 @@ span.award-other img {
   border-radius: 50%;
 }
 
-.schedule-title {
+.post-content .schedule-title {
   margin: 0 0 6px;
   color: #1f2937;
   font-size: 21px;
@@ -229,7 +247,7 @@ span.award-other img {
   box-shadow: 0 8px 24px rgba(20, 35, 55, 0.06);
 }
 
-.paper-title {
+.post-content .paper-title {
   margin: 0 0 6px;
   color: #1f2937;
   font-size: 19px;

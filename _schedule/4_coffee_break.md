@@ -10,7 +10,7 @@ time: 10:00 - 11:15
     <li><a href="/callforpapers/#holocode">HoloCode: Hybrid Optical-Electronic Edge Encoding for Privacy-Preserving Cloud Training</a></li>
     <li><a href="/callforpapers/#primm">PRIMM: Perception Using Integrated Multi-Modal Modularity</a></li>
     <li><a href="/callforpapers/#iris">From Retina to Silicon: The IRIS Framework for Bio-inspired Visual Intelligence</a></li>
-    <li><a href="/callforpapers/#content-adaptive-warping">Should Sensors Output Raw Images? Content-Adaptive Warping as On-Sensor Preprocessing for Semantic Segmentation</a></li>
+    <!-- <li><a href="/callforpapers/#content-adaptive-warping">Should Sensors Output Raw Images? Content-Adaptive Warping as On-Sensor Preprocessing for Semantic Segmentation</a></li> -->
     <li><a href="/callforpapers/#orbcam">ORBCam: In-Sensor ORB Feature Processing for Ultra-Low-Power Visual-Inertial Odometry</a></li>
     <li><a href="/callforpapers/#sr-near-sensor">Rethinking Super-Resolution for Near-Sensor Object Detection</a></li>
     <li><a href="/callforpapers/#cellular-inference-layers">Cellular Inference Layers for On-Sensor Semantic Segmentation: Convergence Guarantees and Energy Efficiency</a></li>

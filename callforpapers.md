@@ -45,14 +45,14 @@ permalink: /callforpapers/
   </details>
 </article>
 
-<article class="paper-card" id="content-adaptive-warping">
+<!-- <article class="paper-card" id="content-adaptive-warping">
   <h4 class="paper-title">Should Sensors Output Raw Images? Content-Adaptive Warping as On-Sensor Preprocessing for Semantic Segmentation</h4>
   <div class="paper-authors">Mayank Singal</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
     <p>Vision sensors capture images at uniform spatial resolution, allocating equal pixels to featureless sky and to intricate object boundaries. This is wasteful: downstream tasks like semantic segmentation struggle at boundaries and fine structures, not at uniform regions. We ask a question central to on-sensor vision: what should a sensor output instead of a raw image? Our answer is a content-adaptively warped image. A Sobel filter computes gradient magnitude (a pixel-parallel operation native to processor arrays), and the resulting map drives a rectilinear warp that reallocates resolution toward visually complex regions. This warped image, together with its horizontal flip (a trivial on-sensor read-order reversal), forms a pair of content-adaptive views that can be transmitted instead of the raw capture. Off-sensor, a segmentation model processes both views and averages the predictions, following the standard two-pass inference pipeline. The difference is that both views are now information-rich: one concentrates resolution at boundaries and textures, the other adds geometric diversity via flipping. Across Cityscapes, ADE20K, and UAVid with three segmentation architectures, this on-sensor warping improves downstream mIoU by 0.75–1.22 points (1.9–5.9× the gain of the standard raw-image-plus-flip pipeline), with zero additional neural network cost.</p>
   </details>
-</article>
+</article> -->
 
 <article class="paper-card" id="orbcam">
   <h4 class="paper-title">ORBCam: In-Sensor ORB Feature Processing for Ultra-Low-Power Visual-Inertial Odometry</h4>

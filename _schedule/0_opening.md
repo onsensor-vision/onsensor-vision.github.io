@@ -5,7 +5,7 @@ webpage: https://personalpages.manchester.ac.uk/staff/p.dudek/pdudek.htm
 affil: University of Manchester
 affil_link: https://www.manchester.ac.uk/
 img: piotrdudek.webp
-title: Introduction
-time: 08:00 - 08:30
+title: Towards On-Sensor Vision with Pixel-Processor Arrays
+time: 08:05 - 08:30
 ---
 TBD
