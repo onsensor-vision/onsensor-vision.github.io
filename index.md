@@ -42,4 +42,4 @@ We welcome **2-4 page submissions** (excluding citations) describing either:
 - **Demonstrations** of hardware prototypes or system implementations
 
 If you are considering sending a paper, please visit our [OpenReview OSV Workshop Website](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/OSV). <br>
-You can find more information on the [Call for Papers page](/callforpapers/). -->
+You can find more information on the [Call for Papers page](/papers/). -->
