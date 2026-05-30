@@ -1,7 +1,7 @@
 ---
 sequence_id: 4
 title: Posters / Demos with coffee
-time: 10:00 - 11:15
+time: 10:00 - 11:00
 ---
 <details class="schedule-abstract">
   <summary>Posters</summary>

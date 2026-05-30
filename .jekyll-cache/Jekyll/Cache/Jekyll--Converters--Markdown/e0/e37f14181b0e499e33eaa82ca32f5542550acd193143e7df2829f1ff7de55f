@@ -1,11 +1,7 @@
----
-layout: page
-title: Abstracts and Demos
-permalink: /papers/
----
-<div class="info-banner">Links to full papers will be added soon.</div>
+I"
+W<div class="info-banner">Links to full papers will be added soon.</div>
 
-## Extended Abstracts
+<h2 id="extended-abstracts">Extended Abstracts</h2>
 
 <div class="paper-list">
 
@@ -112,7 +108,7 @@ permalink: /papers/
 
 </div>
 
-## Demos
+<h2 id="demos">Demos</h2>
 
 <div class="paper-list">
 
@@ -145,50 +141,59 @@ permalink: /papers/
 
 </div>
 
-## <s>Call for Abstracts and Demos</s>
+<h2 id="call-for-abstracts-and-demos"><s>Call for Abstracts and Demos</s></h2>
 
 <p style="color: red;"><strong>The submission and review periods are now closed.</strong></p>
 
-We invite submissions of **extended abstracts** and **live demonstrations** showcasing novel work in on-sensor and near-sensor vision. This is an opportunity to present early-stage research, works-in-progress, recently published results, or hardware prototypes to an audience of researchers working at the intersection of computer vision, computer architecture, and near-memory processing.
+<p>We invite submissions of <strong>extended abstracts</strong> and <strong>live demonstrations</strong> showcasing novel work in on-sensor and near-sensor vision. This is an opportunity to present early-stage research, works-in-progress, recently published results, or hardware prototypes to an audience of researchers working at the intersection of computer vision, computer architecture, and near-memory processing.</p>
 
-Accepted works will be published on the On-Sensor Vision CVPR 2026 workshop website but will **not** appear in the official CVPR 2026 proceedings.
+<p>Accepted works will be published on the On-Sensor Vision CVPR 2026 workshop website but will <strong>not</strong> appear in the official CVPR 2026 proceedings.</p>
 
-### Submission Format
+<h3 id="submission-format">Submission Format</h3>
 
-We welcome **2-4 page submissions** (excluding citations) describing either:
-- **Extended abstracts** presenting novel algorithms, architectures, or results
-- **Demonstrations** of hardware prototypes or system implementations
+<p>We welcome <strong>2-4 page submissions</strong> (excluding citations) describing either:</p>
+<ul>
+  <li><strong>Extended abstracts</strong> presenting novel algorithms, architectures, or results</li>
+  <li><strong>Demonstrations</strong> of hardware prototypes or system implementations</li>
+</ul>
 
-Please use the [official CVPR LaTeX template](https://github.com/cvpr-org/author-kit) for your submission. Submit a **single PDF file** that clearly indicates whether the work will be presented as a poster or demonstration.
+<p>Please use the <a href="https://github.com/cvpr-org/author-kit">official CVPR LaTeX template</a> for your submission. Submit a <strong>single PDF file</strong> that clearly indicates whether the work will be presented as a poster or demonstration.</p>
 
-**Demonstrations are strongly encouraged** and will be given dedicated exhibition space during the workshop.
+<p><strong>Demonstrations are strongly encouraged</strong> and will be given dedicated exhibition space during the workshop.</p>
 
-### Topics of Interest 
-We welcome submissions on all aspects of on-sensor vision, including but not limited to: 
+<h3 id="topics-of-interest">Topics of Interest</h3>
+<p>We welcome submissions on all aspects of on-sensor vision, including but not limited to:</p>
 
-**Algorithms and Methods:**
-- Algorithms for on or near sensor computer vision
-- Cellular automata for vision
-- On-sensor neural networks
-- Bio-inspired vision sensing
-- Graph algorithms for fine-grained parallelism
-- Programming and learning for processing arrays
-- Analog processing for computer vision
+<p><strong>Algorithms and Methods:</strong></p>
+<ul>
+  <li>Algorithms for on or near sensor computer vision</li>
+  <li>Cellular automata for vision</li>
+  <li>On-sensor neural networks</li>
+  <li>Bio-inspired vision sensing</li>
+  <li>Graph algorithms for fine-grained parallelism</li>
+  <li>Programming and learning for processing arrays</li>
+  <li>Analog processing for computer vision</li>
+</ul>
 
-**Architectures and Systems:**
-- Architectures for on-sensor / near-sensor (digital or analogue)
-- Single layer and stacked architectures
-- Architecture simulators (functional and hardware level)
-- Dividing processing between on-sensor and off-sensor
-- Communication between on-sensor and off-sensor processors (bandwidth and direction)
+<p><strong>Architectures and Systems:</strong></p>
+<ul>
+  <li>Architectures for on-sensor / near-sensor (digital or analogue)</li>
+  <li>Single layer and stacked architectures</li>
+  <li>Architecture simulators (functional and hardware level)</li>
+  <li>Dividing processing between on-sensor and off-sensor</li>
+  <li>Communication between on-sensor and off-sensor processors (bandwidth and direction)</li>
+</ul>
 
-### Submission Guidelines
+<h3 id="submission-guidelines">Submission Guidelines</h3>
 
-**Timeline:**
-- **Submission deadline:** April 10, 2026
-- **Notification of acceptance:** April 17, 2026
-- **Camera-ready deadline:**  May 15, 2026
+<p><strong>Timeline:</strong></p>
+<ul>
+  <li><strong>Submission deadline:</strong> April 10, 2026</li>
+  <li><strong>Notification of acceptance:</strong> April 17, 2026</li>
+  <li><strong>Camera-ready deadline:</strong>  May 15, 2026</li>
+</ul>
 
-**Submission Portal:**
-[OpenReview OSV Workshop Website](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/OSV)
-<!-- The submission portal is being finalized. We will update this page once the portal is available. -->
+<p><strong>Submission Portal:</strong>
+<a href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/OSV">OpenReview OSV Workshop Website</a>
+<!-- The submission portal is being finalized. We will update this page once the portal is available. --></p>
+:ET

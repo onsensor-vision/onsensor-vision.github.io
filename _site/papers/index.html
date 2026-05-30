@@ -170,7 +170,7 @@
   <div class="paper-authors">Maciej Lewandowski, Shinjeong Kim, Nicholas Fry, Piotr Dudek, Paul H. J. Kelly, Andrew J. Davison</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
-    <p>Inspired by biological vision, where foveated retina and early neural circuits compress visual input before it leaves the eye, we implement a point-directed segmentation pipeline based on the "Segment This Thing" architecture on a custom bit-serial, near-memory SIMD processor array. The hardware is prototyped on an Xilinx KV260 FPGA, and consists of 2,304 processing elements with bit-flexible arithmetic capabilities. We co-design the model and hardware using a Python instruction-set simulator and verify them against a cycle-accurate RTL co-simulation, which enables rapid iteration without synthesis. Foveated tokenisation reduces the input from 64 to 10 tokens (≈85% reduction), while preserving resolution near the query point. To our knowledge, this is the first implementation of a transformer encoder on a pixel processor array-like system.</p>
+    <p>Inspired by biological vision, where foveated retina and early neural circuits compress visual input before it leaves the eye, we implement a point-directed segmentation pipeline based on the "Segment This Thing" architecture on a custom bit-serial, near-memory SIMD processor array. The hardware is prototyped on an Xilinx KV260 FPGA, and consists of 2,304 processing elements with bit-flexible arithmetic capabilities. We co-design the model and hardware using a Python instruction-set simulator and verify them against a cycle-accurate RTL co-simulation, which enables rapid iteration without synthesis. Foveated tokenisation compresses the input image into just 40 tokens, achieving an 84% reduction in memory while preserving resolution around the query point. To our knowledge, this is the first implementation of a foveated transformer encoder on a pixel processing device.</p>
   </details>
 </article>
 
@@ -266,7 +266,7 @@
         <p>Based on a <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> template from a <a href="https://krrish94.github.io">lazy grad student</a>. Some icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
 </p>
         
-        Last updated: May 28, 2026.
+        Last updated: May 30, 2026.
         
       </div>
     </div>

@@ -7,8 +7,24 @@ title: Home
 layout: home
 ---
 
-<h2 class="home-title"><span class="home-title-text">On-Sensor Vision Workshop 2026</span><a class="home-title-logo-link" href="https://cvpr.thecvf.com/Conferences/2026" target="_blank" rel="noopener"><img class="home-title-logo" src="/assets/img/cvpr2026_logo.png" alt="CVPR 2026, Denver Colorado, June 3-7"></a></h2>
-<div class="info-banner">Location: Mile High 4EF, Time: 08:00-12:45 June 3rd 2026, <a href="/schedule/">Schedule</a></div>
+<h2 class="home-title" id="home-title"><span class="home-title-text">On-Sensor Vision Workshop 2026</span><a class="home-title-logo-link" href="https://cvpr.thecvf.com/Conferences/2026" target="_blank" rel="noopener"><img class="home-title-logo" src="/assets/img/cvpr2026_logo.png" alt="CVPR 2026, Denver Colorado, June 3-7"></a></h2>
+<script>
+(function () {
+  var title = document.getElementById('home-title');
+  if (!title) return;
+  var text = title.querySelector('.home-title-text');
+  var logo = title.querySelector('.home-title-logo-link');
+  var img = title.querySelector('.home-title-logo');
+  function update() {
+    // Logo sits below the text (different flex line) => wrapped.
+    title.classList.toggle('is-wrapped', logo.offsetTop > text.offsetTop);
+  }
+  window.addEventListener('resize', update);
+  if (img && !img.complete) img.addEventListener('load', update);
+  update();
+})();
+</script>
+<div class="info-banner">Location: Mile High 4EF, Time: 08:00-12:30 June 3rd 2026, <a href="/schedule/">Schedule</a></div>
 ![](assets/img/banner.jpg)
 
 

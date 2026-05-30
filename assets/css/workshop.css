@@ -1,20 +1,37 @@
 .home-title {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 24px;
   flex-wrap: wrap;
+  gap: 24px;
+  /* One line: text on the left, logo on the right. */
+  justify-content: space-between;
 }
 
 .home-title-text {
   flex: 0 1 auto;
+  text-align: left;
+}
+
+.home-title-logo-link {
+  flex: 0 0 auto;
+  display: block;
 }
 
 .home-title-logo {
-  flex: 0 0 auto;
   height: 1.33em;
   width: auto;
   display: block;
+}
+
+/* Set by a small script when the logo wraps onto its own line: each item is
+   then centered on its line. (A numeric breakpoint can't track the wrap point
+   reliably because the title width depends on the rendered font.) */
+.home-title.is-wrapped {
+  justify-content: center;
+}
+
+.home-title.is-wrapped .home-title-text {
+  text-align: center;
 }
 
 .info-banner {
