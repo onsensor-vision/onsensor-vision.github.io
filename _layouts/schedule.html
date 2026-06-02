@@ -45,10 +45,10 @@ layout: default
 											<a href="{{ scheduleitem.webpage }}" target="_blank" rel="noopener">{{ scheduleitem.speaker }}</a>
 										{% else %}
 											{{ scheduleitem.speaker }}
-										{% endif %}
+										{% endif %}{% if scheduleitem.speaker_note %} <span class="schedule-speaker-note">{{ scheduleitem.speaker_note }}</span>{% endif %}
 									</div>
 								{% endif %}
-								{% if scheduleitem.affil or scheduleitem.affil2 %}
+									{% if scheduleitem.affil or scheduleitem.affil2 %}
 									<div class="schedule-affiliation">
 										{% if scheduleitem.affil %}
 											{% if scheduleitem.affil_link %}

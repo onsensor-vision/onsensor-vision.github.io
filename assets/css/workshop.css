@@ -233,6 +233,17 @@ span.award-other img {
   line-height: 1.4;
 }
 
+.schedule-speaker-note {
+  color: #8a94a3;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.schedule-speaker-note a {
+  color: inherit;
+}
+
 .schedule-affiliation {
   margin-top: 2px;
   color: #5c6674;
