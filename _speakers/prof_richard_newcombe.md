@@ -1,4 +1,8 @@
 ---
+# Card hidden / "commented out" — this slot was replaced by Dr. Barbara De Salvo.
+# Content preserved below; to restore Richard's card, set this to true or remove the line.
+published: false
+
 # Name of the speaker
 name: Dr. Richard Newcombe
 
