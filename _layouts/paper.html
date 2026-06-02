@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article class="post paper-detail">
+
+  <h1 class="paper-detail-title">{{ page.title }}</h1>
+
+  <div class="paper-detail-authors">{{ page.authors }}</div>
+
+  <section class="paper-detail-section">
+    <h2 class="paper-detail-heading">Abstract</h2>
+    <div class="paper-detail-abstract">
+      {{ content }}
+    </div>
+  </section>
+
+  <section class="paper-detail-section">
+    <h2 class="paper-detail-heading">Related Material</h2>
+    <div class="related-material">
+      {% if page.pdf %}<a class="material-link" href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener">[pdf]</a>{% endif %}
+      {% if page.supp %}<a class="material-link" href="{{ page.supp | relative_url }}" target="_blank" rel="noopener">[supp]</a>{% else %}<span class="material-link material-disabled" title="No supplementary material">[supp]</span>{% endif %}
+      {% if page.bibtex %}<button type="button" class="material-link bibtex-toggle" aria-expanded="false" aria-controls="bibtex-block" onclick="var b=document.getElementById('bibtex-block');if(b.hasAttribute('hidden')){b.removeAttribute('hidden');this.setAttribute('aria-expanded','true');}else{b.setAttribute('hidden','');this.setAttribute('aria-expanded','false');}">[bibtex]</button>
+      <pre id="bibtex-block" class="bibtex-content" hidden>{{ page.bibtex }}</pre>{% endif %}
+    </div>
+  </section>
+
+</article>

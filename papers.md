@@ -10,7 +10,7 @@ permalink: /papers/
 <div class="paper-list">
 
 <article class="paper-card" id="snappix">
-  <h4 class="paper-title">SNAPPIX: Efficient-Coding–Inspired In-Sensor Compression for Edge Vision</h4>
+  <h4 class="paper-title"><a href="/html/SNAPPIX_Efficient-Coding_Inspired_In-Sensor_Compression_for_Edge_Vision.html">SNAPPIX: Efficient-Coding–Inspired In-Sensor Compression for Edge Vision</a></h4>
   <div class="paper-authors">Weikai Lin, Tianrui Ma, Adith Boloor, Yu Feng, Ruofan Xing, Xuan Zhang, Yuhao Zhu</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
@@ -19,7 +19,7 @@ permalink: /papers/
 </article>
 
 <article class="paper-card" id="holocode">
-  <h4 class="paper-title">HoloCode: Hybrid Optical-Electronic Edge Encoding for Privacy-Preserving Cloud Training</h4>
+  <h4 class="paper-title"><a href="/html/HoloCode_Hybrid_Optical-Electronic_Edge_Encoding_for_Privacy-Preserving_Cloud_Training.html">HoloCode: Hybrid Optical-Electronic Edge Encoding for Privacy-Preserving Cloud Training</a></h4>
   <div class="paper-authors">Ruofan Xing, Arman Akbari, Weikai Lin, Adith Boloor, Alexander Montes McNeil, Michael Moebius, Yongmin Liu, Yuhao Zhu, Xuan Zhang</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
@@ -28,7 +28,7 @@ permalink: /papers/
 </article>
 
 <article class="paper-card" id="primm">
-  <h4 class="paper-title">PRIMM: Perception Using Integrated Multi-Modal Modularity</h4>
+  <h4 class="paper-title"><a href="/html/PRIMM_Perception_Using_Integrated_Multi-Modal_Modularity.html">PRIMM: Perception Using Integrated Multi-Modal Modularity</a></h4>
   <div class="paper-authors">lilian lamb, Mohammadreza Mohammadi, Ramtin Zand</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
@@ -37,7 +37,7 @@ permalink: /papers/
 </article>
 
 <article class="paper-card" id="iris">
-  <h4 class="paper-title">From Retina to Silicon: The IRIS Framework for Bio-inspired Visual Intelligence</h4>
+  <h4 class="paper-title"><a href="/html/From_Retina_to_Silicon_The_IRIS_Framework_for_Bio-inspired_Visual_Intelligence.html">From Retina to Silicon: The IRIS Framework for Bio-inspired Visual Intelligence</a></h4>
   <div class="paper-authors">Subhradip Chakraborty, Shay Snyder, Maryam Parsa, Gregory W Schwartz, Akhilesh Jaiswal</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
@@ -55,7 +55,7 @@ permalink: /papers/
 </article> -->
 
 <article class="paper-card" id="orbcam">
-  <h4 class="paper-title">ORBCam: In-Sensor ORB Feature Processing for Ultra-Low-Power Visual-Inertial Odometry</h4>
+  <h4 class="paper-title"><a href="/html/ORBCam_In-Sensor_ORB_Feature_Processing_for_Ultra-Low-Power_Visual-Inertial_Odometry.html">ORBCam: In-Sensor ORB Feature Processing for Ultra-Low-Power Visual-Inertial Odometry</a></h4>
   <div class="paper-authors">Yiwen Liang, Yuxiang Peng, Guoquan Huang, Weidong Cao, Chuchu Chen</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
@@ -64,7 +64,7 @@ permalink: /papers/
 </article>
 
 <article class="paper-card" id="sr-near-sensor">
-  <h4 class="paper-title">Rethinking Super-Resolution for Near-Sensor Object Detection</h4>
+  <h4 class="paper-title"><a href="/html/Rethinking_Super-Resolution_for_Near-Sensor_Object_Detection.html">Rethinking Super-Resolution for Near-Sensor Object Detection</a></h4>
   <div class="paper-authors">Lingjia Shi, Jinendra Malekar, Ramtin Zand</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
@@ -83,8 +83,8 @@ permalink: /papers/
 </article>
 
 <article class="paper-card" id="pixvod">
-  <h4 class="paper-title">PixVOD: Pixel-Distributed Direct Visual Odometry and Depth Estimation</h4>
-  <div class="paper-authors">Shinjeong Kim, Paul H. J. Kelly, Andrew J. Davison</div>
+  <h4 class="paper-title"><a href="/html/PixVOD_Pixel-Distributed_Direct_Visual_Odometry_and_Depth_Estimation.html">PixVOD: Pixel-Distributed Direct Visual Odometry and Depth Estimation</a></h4>
+  <div class="paper-authors">Shinjeong Kim, Ignacio Alzugaray, Callum Rhodes, Paul H. J. Kelly, Andrew J. Davison</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
     <p>Images composed of 2D pixel arrays are the standard input to computer vision algorithms, yet many underlying computations can be distributed across pixels. Transmitting raw, redundant, and noisy pixel data off the sensor remains inefficient, motivating a shift toward focal-plane sensor-processors that perform a significant part of the computation directly within each pixel. We envision pixels synthesizing higher-level signals locally, reducing downstream load, and providing richer inputs for higher-level vision tasks.</p>
@@ -102,7 +102,7 @@ permalink: /papers/
 </article>
 
 <article class="paper-card" id="fefet-event-suppression">
-  <h4 class="paper-title">On-Sensor Background Event Suppression with FeFETs</h4>
+  <h4 class="paper-title"><a href="/html/On-Sensor_Background_Event_Suppression_with_FeFETs.html">On-Sensor Background Event Suppression with FeFETs</a></h4>
   <div class="paper-authors">Leo Liu, Brandon Cai, Kwabena Boahen</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
@@ -135,7 +135,7 @@ permalink: /papers/
 </article>
 
 <article class="paper-card" id="recer-r1-logarithmic-sensor">
-  <h4 class="paper-title">Demonstration of a Logarithmic Image Sensor with On-Chip Normal Flow Compute</h4>
+  <h4 class="paper-title"><a href="/html/Demonstration_of_a_Logarithmic_Image_Sensor_with_On-Chip_Normal_Flow_Compute.html">Demonstration of a Logarithmic Image Sensor with On-Chip Normal Flow Compute</a></h4>
   <div class="paper-authors">Mika Laiho, Ari Paasio, Eero Lehtonen, Petteri Mäki, Mika Kutila, Mika Grönroos, Tuomo Komulainen, Tero Säntti, Kalle Paasio, Jonne Poikonen</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
