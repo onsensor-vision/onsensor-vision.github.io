@@ -3,7 +3,6 @@ layout: page
 title: Abstracts and Demos
 permalink: /papers/
 ---
-<div class="info-banner">Links to full papers will be added soon.</div>
 
 ## Extended Abstracts
 
@@ -74,7 +73,7 @@ permalink: /papers/
 </article>
 
 <article class="paper-card" id="cellular-inference-layers">
-  <h4 class="paper-title">Cellular Inference Layers for On-Sensor Semantic Segmentation: Convergence Guarantees and Energy Efficiency</h4>
+  <h4 class="paper-title"><a href="/html/Cellular_Inference_Layers_for_On-Sensor_Semantic_Segmentation_Convergence_Guarantees_and_Energy_Efficiency.html">Cellular Inference Layers for On-Sensor Semantic Segmentation: Convergence Guarantees and Energy Efficiency</a></h4>
   <div class="paper-authors">Kaustubh S. Bukkapatnam</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
@@ -93,7 +92,7 @@ permalink: /papers/
 </article>
 
 <article class="paper-card" id="rotation-robust-tracking">
-  <h4 class="paper-title">Rotation-Robust On-Sensor Feature Tracking via In-Pixel Shear Compensation</h4>
+  <h4 class="paper-title"><a href="/html/Rotation-Robust_On-Sensor_Feature_Tracking_via_In-Pixel_Shear_Compensation.html">Rotation-Robust On-Sensor Feature Tracking via In-Pixel Shear Compensation</a></h4>
   <div class="paper-authors">Anirudh Kannan</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
@@ -117,7 +116,7 @@ permalink: /papers/
 <div class="paper-list">
 
 <article class="paper-card" id="silicon-retina-ppa">
-  <h4 class="paper-title">Silicon Retina on Pixel Processor Array</h4>
+  <h4 class="paper-title"><a href="/html/Implementation_of_a_Retina_Model_on_the_SCAMP-5_Vision_Sensor.html">Implementation of a Retina Model on the SCAMP-5 Vision Sensor</a></h4>
   <div class="paper-authors">Maciej Lewandowski, Prince Philip, André van Schaik, Piotr Dudek</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
@@ -126,7 +125,7 @@ permalink: /papers/
 </article>
 
 <article class="paper-card" id="segment-this-thing">
-  <h4 class="paper-title">Segment This Thing, Bit by Bit</h4>
+  <h4 class="paper-title"><a href="/html/Segment_This_Thing_Bit_by_Bit.html">Segment This Thing, Bit by Bit</a></h4>
   <div class="paper-authors">Maciej Lewandowski, Shinjeong Kim, Nicholas Fry, Piotr Dudek, Paul H. J. Kelly, Andrew J. Davison</div>
   <details class="schedule-abstract">
     <summary>Abstract</summary>
