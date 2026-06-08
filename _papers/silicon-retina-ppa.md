@@ -3,12 +3,12 @@ sequence_id: 109
 layout: paper
 permalink: /html/Implementation_of_a_Retina_Model_on_the_SCAMP-5_Vision_Sensor.html
 title: "Implementation of a Retina Model on the SCAMP-5 Vision Sensor"
-authors: Maciej Lewandowski, Prince Philip, André van Schaik, Piotr Dudek
+authors: Maciej Lewandowski, Prince Philip, Alexandre Marcireau, Chetan Singh Thakur, André van Schaik, Piotr Dudek
 pdf: /pdf/Implementation_of_a_Retina_Model_on_the_SCAMP-5_Vision_Sensor.pdf
 # supp: /pdf/Implementation_of_a_Retina_Model_on_the_SCAMP-5_Vision_Sensor_supplementary.pdf
-bibtex: |
+bibtex: |  
   @inproceedings{lewandowski2026retina,
-    author    = {Lewandowski, Maciej and Philip, Prince and Schaik, André van and Dudek, Piotr},
+    author    = {Lewandowski, Maciej and Philip, Prince and Marcireau, Alexandre and Singh Thakur, Chetan and Schaik, André van and Dudek, Piotr},
     title     = {Implementation of a Retina Model on the SCAMP-5 Vision Sensor},
     booktitle = {CVPR 2026 Workshop on On-Sensor Vision},
     year      = {2026},
